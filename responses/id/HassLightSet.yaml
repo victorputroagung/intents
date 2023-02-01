@@ -2,7 +2,7 @@ language: id
 responses:
   intents:
     HassLightSet:
-      brightness: '{{ slots.name }} brightness set to {{ slots.brightness }}'
-      brightness_area: Brightness in {{ slots.area }} set to {{ slots.brightness }}
-      color: '{{ slots.name }} color set to {{ slots.color }}'
-      color_area: Color in {{ slots.area }} set to {{ slots.color }}
+      brightness: "Mengatur kecerahan {{ slots.name }} menjadi {{ slots.brightness }}"
+      brightness_area: "Mengatur kecerahan pada {{ slots.area }} menjadi {{ slots.brightness }}"
+      color: "Mengatur warna {{ slots.name }} menjadi {{ slots.color }}"
+      color_area: "Mengatur warna pada {{ slots.area }} menjadi {{ slots.color }}"
